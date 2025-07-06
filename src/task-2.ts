@@ -1,10 +1,10 @@
-interface Custom {
+interface Product {
     readonly id: number;
     title: string;
     description?: string;
 }
 
-const product: Custom = {
+const product: Product = {
   id: 1,
   title: "Tablet",
   description: "Compact and fast",
